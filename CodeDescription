@@ -1,0 +1,9 @@
+This code is part of my summer project where I built a machine learning app that detects when drivers are sleepy and wakes them up to prevent car accidents. The python scripts here are what I used to train my model.
+
+FrameExtraction - this is a script that takes in my datataset of videos and extracts a set of frames that I then use to train my model.
+
+Model - this is the script that trains my model using the dataset I created earlier.
+
+Predict - this script I then use to test my model on unseen data. It then plots a confusion matrix of how my model performed so I can analyse the results.
+
+Prototype - this is a python script I used to prototype running my model in real time. It takes input from the laptop camera and runs my model in real time on the faces it captures.
